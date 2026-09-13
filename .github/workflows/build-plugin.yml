@@ -51,7 +51,7 @@ jobs:
 
           # Create directory structure
           mkdir -p ${PKG_DIR}/usr/bin/plugins
-          mkdir -p ${PKG_DIR}/var/www/mos-plugins/bcachefs
+          mkdir -p ${PKG_DIR}/var/www/mos-plugins/bcachefs-driver
           mkdir -p ${PKG_DIR}/DEBIAN
 
           # Copy Vue plugin
