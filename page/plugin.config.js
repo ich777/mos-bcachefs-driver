@@ -1,7 +1,7 @@
 export default {
-  name: 'bcachefs',
-  displayName: 'bcachefs',
-  description: 'bcachefs for MOS',
+  name: 'bcachefs-driver',
+  displayName: 'bcachefs Driver and Tools',
+  description: 'bcachefs Driver and Tools for MOS',
   version: '0.0.0',
   icon: 'mdi-align-vertical-distribute',
   author: 'ich777',
