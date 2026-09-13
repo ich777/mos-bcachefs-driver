@@ -52,7 +52,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 
-const PLUGIN_NAME = 'bcachefs';
+const PLUGIN_NAME = 'bcachefs-driver';
 
 const loading = ref(true);
 const driverInfo = ref(null);

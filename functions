@@ -20,7 +20,7 @@ elif [ "$(get_arch)" == "arm64" ] ; then
 fi
 
 # Set variables for plugin
-PLG_NAME="bcachefs"
+PLG_NAME="bcachefs-driver"
 DISPLAY_NAME="bcachefs"
 PLG_DIR="/boot/optional/plugins/$PLG_NAME"
 DRV_TMP_DIR="/var/mos/mos-plugins"
