@@ -55,7 +55,7 @@ jobs:
           mkdir -p ${PKG_DIR}/DEBIAN
 
           # Copy Vue plugin
-          cp -R page/dist/bcachefs/* ${PKG_DIR}/var/www/mos-plugins/bcachefs/
+          cp -R page/dist/bcachefs-driver/* ${PKG_DIR}/var/www/mos-plugins/bcachefs-driver/
 
           # Create DEBIAN control file
           cat > ${PKG_DIR}/DEBIAN/control << EOF
