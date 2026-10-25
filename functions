@@ -160,6 +160,7 @@ driver_download() {
 install() {
   driver_download
   install_driver
+  echo "bcachefs Driver Plugin" >> /var/mos/reboot_pending
 }
 
 mos_start() {
